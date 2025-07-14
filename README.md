@@ -1,6 +1,6 @@
 # 📰 Blog Summarizer
 
-An AI-powered blog summarization tool built with **Next.js 14**, **Tailwind CSS**, **Selenium (headless)**, and **Groq/OpenAI**. This app takes a blog URL, scrapes the content, summarizes it using AI, translates the summary to Urdu, and stores both versions for easy viewing.
+An AI-powered blog summarization tool built with **Next.js 14**, **Tailwind CSS**, and **Groq**. This app takes a blog URL, scrapes the content, summarizes it using AI, translates the summary to Urdu, and stores both versions for easy viewing.
 
 ---
 
