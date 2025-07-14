@@ -112,6 +112,24 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* For the subtle grid pattern */
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, #e0e7ff 1px, transparent 1px),
+    linear-gradient(to bottom, #e0e7ff 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* Ensure your animation works properly */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -120,3 +138,4 @@
     @apply bg-background text-foreground;
   }
 }
+
