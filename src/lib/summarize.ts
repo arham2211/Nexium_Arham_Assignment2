@@ -6,7 +6,7 @@ export async function summarizeText(text: string): Promise<string> {
       messages: [
         {
           role: "system",
-          content: "You are a helpful assistant that summarizes the blog into 100 to 200 words.",
+          content: "You are a helpful assistant that summarizes the blog, ignore the html syntax like the tags<p>, only note the content in that, and try to summarize the blog  into 100 to 200 words.",
         },
         {
           role: "user",
